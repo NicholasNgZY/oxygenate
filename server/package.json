@@ -1,33 +1,33 @@
 {
-  "type": "module",
-  "name": "mea",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "start:dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
-    "server": "nodemon server.js",
-    "client": "cd ../client && npm run start",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "engines": {
-    "node": "16.x",
-    "npm": "7.21.0"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "concurrently": "^6.5.1",
-    "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.2",
-    "express-jwt": "^6.1.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.1.2",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.15"
-  }
+    "type": "module",
+    "name": "mea",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "start:dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+        "server": "nodemon server.js",
+        "client": "cd ../client && npm run start",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": "20.x",
+        "npm": "10.2.4"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "concurrently": "^6.5.1",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.2",
+        "express-jwt": "^6.1.2",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.12.7",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.22"
+    }
 }
